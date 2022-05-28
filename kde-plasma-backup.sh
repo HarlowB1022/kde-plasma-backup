@@ -8,8 +8,8 @@
 
 ## Define global variables
 
-SHARE_FILES=("color-schemes" "knewstuff3" "konsole" "kxmlgui5" "plasma" "aurorae" "themes")
-CONFIG_FILES=("dolphinrc" "plasma*" "powerdevilrc" "powermanagementprofilesrc" "startupconfig" "startupconfigkeys" "systemsettingsrc" "touchpadrc" "gtk-2.0" "gtk-3.0" "gtk-4.0")
+SHARE_FILES=("color-schemes" "knewstuff3" "konsole" "kxmlgui5" "plasma" "aurorae" "themes" "wallpapers" "icons") 
+CONFIG_FILES=("dolphinrc" "plasma*" "powerdevilrc" "powermanagementprofilesrc" "startupconfig" "startupconfigkeys" "systemsettingsrc" "touchpadrc" "gtk-2.0" "gtk-3.0" "gtk-4.0" "alacritty")
 OUTPUT_DIR="/tmp"
 BACKUP_NAME="kde-configuration-backup-$(date +%Y%m%d).tgz"
 BACKUP_DIR="/tmp/kde-configuration-backup"
